@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply bg-primary-100 text-primary-300 font-League-spartan font-fw-regular selection:bg-primary-300 selection:text-primary-100;
+    font-size: 62.5%;
+  }
+  button:active,
+  button:focus,
+  a:active,
+  a:focus {
+    @apply outline-none border-none;
+  }
+}
+
+h4 {
+  font-size: larger;
+  font-weight: bold;
+  color: hsl(0, 0%, 0%);
+}
+
+.hero {
+  background-image: url("/images/mobile-image-hero-1.jpg");
+}
+
+.hero2 {
+  background-image: url("/images/mobile-image-hero-2.jpg");
+}
+.hero3 {
+  background-image: url("/images/mobile-image-hero-3.jpg");
+}
+
+@media (min-width: 640px) {
+  .hero {
+    background-image: url("/images/desktop-image-hero-1.jpg");
+  }
+
+  .hero2 {
+    background-image: url("/images/desktop-image-hero-2.jpg");
+  }
+  .hero3 {
+    background-image: url("/images/desktop-image-hero-3.jpg");
+  }
+}

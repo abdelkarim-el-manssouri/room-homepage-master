@@ -1,9 +1,11 @@
 {
+  "homepage": "https://abdelkarim-el-manssouri.github.io/room-homepage-master",
+  "name": "room-homepage-master",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite --port=3000",
+    "dev": "vite",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "build": "vite build",

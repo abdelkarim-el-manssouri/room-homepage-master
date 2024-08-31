@@ -55,11 +55,11 @@ const Home = () => {
                   className="sm:hidden absolute left-[5%]"
                 >
                   <span className="sr-only">menu</span>
-                  <img src="/public/images/icon-hamburger.svg" alt="" />
+                  <img src="/images/icon-hamburger.svg" alt="" />
                 </button>
 
                 <Link to="/">
-                  <img src="/public/images/logo.svg" alt="website logo" />
+                  <img src="/images/logo.svg" alt="website logo" />
                 </Link>
                 <ul className="hidden sm:flex gap-x-14 text-[1.25rem]">
                   {navLinks.map((el) => (
@@ -94,7 +94,7 @@ const Home = () => {
                   >
                     <button onClick={() => setOpen((pv) => !pv)}>
                       <span className="sr-only">close menu</span>
-                      <img src="/public/images/icon-close.svg" alt="" />
+                      <img src="/images/icon-close.svg" alt="" />
                     </button>
                     <ul className="flex gap-x-14 text-[1.25rem] text-primary-900">
                       {navLinks.map((el, index) => (
@@ -144,7 +144,7 @@ const Home = () => {
                   </span>
                   <img
                     className="group-hover:translate-x-4 group-active:scale-75 transition ease-in group-hover:fill-primary-300"
-                    src="/public/images/icon-arrow.svg"
+                    src="/images/icon-arrow.svg"
                     alt=""
                   />
                 </button>
@@ -159,7 +159,7 @@ const Home = () => {
                     <span className="sr-only">prev</span>
                     <img
                       className="group-hover:-translate-x-1 group-active:scale-90 transition ease-in"
-                      src="/public/images/icon-angle-left.svg"
+                      src="/images/icon-angle-left.svg"
                       alt=""
                     />
                   </button>
@@ -173,7 +173,7 @@ const Home = () => {
                     <span className="sr-only">next</span>
                     <img
                       className="group-hover:translate-x-1 group-active:scale-90 transition ease-in"
-                      src="/public/images/icon-angle-right.svg"
+                      src="/images/icon-angle-right.svg"
                       alt=""
                     />
                   </button>
